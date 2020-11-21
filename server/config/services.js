@@ -41,24 +41,28 @@
 */
 
 module.exports = {
+  // main gallery
   service1: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3001',
-    bundle: 'app.js',
+    api: 'listings/:id',
+    url: 'http://localhost:8040',
+    bundle: 'bundle.js',
   },
+  // similar homes
   service2: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3002',
-    bundle: 'app.js',
+    api: 'listings/:id',
+    url: 'http://localhost:8030',
+    bundle: 'bundle.js',
   },
+  // neighborhood reviews
   service3: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3003',
-    bundle: 'app.js',
+    api: 'listings/:id',
+    url: 'http://localhost:8010',
+    bundle: 'bundle.js',
   },
+  // affordability calculator
   service4: {
-    api: 'FIX_ME',
-    url: 'http://localhost:3004',
-    bundle: 'app.js',
+    api: 'listings/:id',
+    url: 'http://localhost:8020',
+    bundle: 'bundle.js',
   },
 };
