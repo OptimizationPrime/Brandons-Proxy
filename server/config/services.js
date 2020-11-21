@@ -43,26 +43,26 @@
 module.exports = {
   // main gallery
   service1: {
-    api: 'listings/:id',
-    url: 'http://localhost:8040',
-    bundle: 'bundle.js',
+    api: '/listings/:id/homesData',
+    url: 'http://127.0.0.1:8040',
+    bundle: '/gallery/:id/bundle.js',
   },
   // similar homes
   service2: {
-    api: 'listings/:id',
-    url: 'http://localhost:8030',
-    bundle: 'bundle.js',
+    api: '/listings/:id/listing',
+    url: 'http://127.0.0.1:8030',
+    bundle: '/carousel/:id/bundle.js',
   },
   // neighborhood reviews
   service3: {
-    api: 'listings/:id',
-    url: 'http://localhost:8010',
-    bundle: 'bundle.js',
+    api: '/listings/:id/neighborhood*',
+    url: 'http://127.0.0.1:8010',
+    bundle: '/reviews/:id/bundle.js',
   },
   // affordability calculator
   service4: {
-    api: 'listings/:id',
-    url: 'http://localhost:8020',
-    bundle: 'bundle.js',
+    api: '/listings/:id/db',
+    url: 'http://127.0.0.1:8020',
+    bundle: '/mortgage/:id/bundle.js',
   },
 };
