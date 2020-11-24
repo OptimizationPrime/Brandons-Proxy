@@ -44,25 +44,25 @@ module.exports = {
   // main gallery
   service1: {
     api: '/listings/:id/homesData',
-    url: 'http://127.0.0.1:8040',
+    url: 'http://54.151.124.17:8040',
     bundle: '/gallery/:id/bundle.js',
   },
   // similar homes
   service2: {
     api: '/listings/:id/listing',
-    url: 'http://127.0.0.1:8030',
+    url: 'http://13.56.19.216:8030',
     bundle: '/carousel/:id/bundle.js',
   },
   // neighborhood reviews
   service3: {
     api: '/listings/:id/neighborhood*',
-    url: 'http://127.0.0.1:8010',
+    url: 'http://3.138.140.28:8010',
     bundle: '/reviews/:id/bundle.js',
   },
   // affordability calculator
   service4: {
     api: '/listings/:id/db',
-    url: 'http://127.0.0.1:8020',
+    url: 'http://ec2-3-101-25-31.us-west-1.compute.amazonaws.com:8020',
     bundle: '/mortgage/:id/bundle.js',
   },
 };
