@@ -1,0 +1,1 @@
+ssh -i "/Users/lucychen/Hack Reactor/Lucys-Proxy/lucysProxy.pem" ubuntu@ec2-54-193-233-186.us-west-1.compute.amazonaws.com
